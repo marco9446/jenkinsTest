@@ -2,7 +2,9 @@ pipeline {
     agent any
     stages {
         stage('build') {
-            echo(message: 'ciood')
+            step {
+                echo(message: 'hell dsdso')
+            }
         }
     }
 }
